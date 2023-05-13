@@ -1,0 +1,80 @@
+header{
+    padding-top:2%;
+    color: silver;
+    margin-bottom:2%;
+}
+footer{
+	background:black;
+    text-align:center;
+	color:white;
+    clear:both;
+}
+
+@keyframes promenaBoje{
+    from {backround-color: blue}
+    to {background-color: gold}
+}
+#promenaBoje{
+    text-align:right;
+	font-size:150%;
+    background-color: blue;
+    animation-name: promenaBoje;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+#slike{
+    width: auto;
+    height: auto;
+    border:cadetblue dotted;
+    position:relative;
+    max-width: 100%;
+}
+#baner{
+    width: auto;
+    height: auto;
+    border:cadetblue dotted;
+    position:relative;
+    max-width: 100%;
+}
+.menislike {
+    width: auto;
+	height: auto;
+    position:relative;
+    max-width: 100%;	
+}
+img.menislike:hover {
+	-webkit-transform: scale(1.2);
+	transform: scale(1.2);	
+}
+.prvi p {
+    font-family: Comic Sans MS, 'Times New Roman', Times, serif;
+    text-align:justify;
+	font-size: 22px;
+	color: rgb(7, 55, 99);
+	
+}
+.prvi p span {
+    float: left;
+    line-height: 85%;  
+    width: .9em; 
+    color: rgb(7, 55, 99); 
+    font-size: 400%;
+    font-family:'Comic Sans MS', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif 
+}
+h1{
+	text-align:center;
+    color: rgb(7, 55, 99); 
+    font-family:'Comic Sans MS', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif 
+}
+@media screen and (min-width:600px){
+	#hmeni {display: none}
+}
+@media screen and (max-width:601px){
+	#horizmeni {display: none}
+	#slike {width: 50%; height:auto}
+}
+a:link {color:rgb(32, 16, 104) }
+a:visited {color:chocolate}
+a:hover{color:darkcyan}
+
+
